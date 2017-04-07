@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>3 LVL</title>
+  <link rel="stylesheet" href="app/css/style.css">
+</head>
+
+<body>
+  <div class="page1">
+    <div class="eclipse"></div>
+    <div class="nav-wrapper">
+      <div class="nav">
+        <button class="button edit">Edit</button>
+        <button class="button bold">B</button>
+        <button class="button italic">I</button>
+        <button class="button underline">U</button>
+        <select class="font-size">
+          <option value="12pt">12pt</option>
+          <option value="14pt">14pt</option>
+          <option value="16pt">16pt</option>
+          <option value="18pt">18pt</option>
+          <option value="20pt">20pt</option>
+        </select>
+        <select class="font-family">
+          <option value="Times New Roman">Times New Roman</option>
+          <option value="Arial">Arial</option>
+          <option value="Verdana">Verdana</option>
+          <option value="Georgia">Georgia</option>
+          <option value="Algerian">Algerian</option>
+        </select>
+        <button class="button color">Color</button>
+        <button class="button background">Background</button>
+        <label>
+          <input type="radio" name="text-align" value="left" checked>Left</label>
+        <label>
+          <input type="radio" name="text-align" value="center">Center</label>
+        <label>
+          <input type="radio" name="text-align" value="right">Right</label>
+      </div>
+    </div>
+    <table class="choose choose-text-color">
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+    <table class="choose choose-background-image">
+      <tr class="td-button">
+        <td class="td-button" colspan="3">
+          <button class="background-color-button">
+            Background color
+          </button>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="td-button">
+        <td class="td-button" colspan="3">
+          Choose image:
+          <input type='file'>
+        </td>
+      </tr>
+    </table>
+    <table class="choose choose-background-color">
+      <tr class="td-button">
+        <td class="td-button" colspan="3">
+          <button class="background-image-button">
+            Background image
+          </button>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+    <div class="text">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptate, vitae et iure harum consectetur itaque, mollitia magni asperiores accusamus dolorum odio non totam iusto fugiat delectus eos qui modi! Facere debitis quas totam cumque a deleniti quo ratione, doloribus tenetur! Minus libero illum, nemo. Quam, esse magni, obcaecati cum sit nobis ut reiciendis illum eius qui, cupiditate, earum veritatis dolores aliquam aut. Optio voluptas natus nemo dolor excepturi exercitationem beatae, similique perspiciatis qui officia quam non recusandae libero expedita corporis repellendus, incidunt, deserunt fugiat rem, quasi a. Nemo, quia! Veniam ad, minus fugiat ut rem numquam iusto consequuntur dicta!
+    </div>
+  </div>
+  <!-- End Page1 -->
+  <div class="page2">
+    <div class="eclipse2"></div>
+    <div class="nav-wrapper">
+      <div class="nav">
+        <button class="back">Back</button>
+        <button class="save">Save</button>
+        <button class="choose-table">Choose table</button>
+        <button class="choose-list">Choose list</button>
+      </div>
+    </div>
+    <div class="choose table-form">
+      <div class="table-center">
+        <div class="table-form-block">
+          <div class="prop-name"><span>Rows:</span></div>
+          <div class='spliter row-number'></div>
+          <div class="prop-name"><span>Cols:</span></div>
+          <div class='spliter cell-number'></div>
+          <div class="prop-name"><span>Width:</span></div>
+          <div class='spliter cell-width'></div>
+          <div class="prop-name"><span>Height:</span></div>
+          <div class='spliter cell-height'></div>
+        </div>
+        <div class="table-form-block spc-vertical-align-for-table-form">
+          <input type="text" class="row-number">
+          <div class="error row-number error-number"></div>
+          <div class="error row-number error-empty"></div>
+          <input type="text" class="cell-number">
+          <div class="error cell-number error-number"></div>
+          <div class="error cell-number error-empty"></div>
+          <input type="text" class="cell-width">
+          <div class="error cell-width error-number"></div>
+          <div class="error cell-width error-empty"></div>
+          <input type="text" class="cell-height">
+          <div class="error cell-height error-number"></div>
+          <div class="error cell-height error-empty"></div>
+        </div>
+      </div>
+      <div class="table-center">
+        <div class="table-form-block spc-vertical-align-for-table-form">
+          <div class="prop-name"><span>Border type:</span></div>
+          <div class="prop-name"><span>Border width:</span></div>
+          <div class='spliter border-width'></div>
+          <div class="prop-name"><span>Border color:</span></div>
+          <div class='spliter border-color'></div>
+        </div>
+        <div class="table-form-block spc-margin-for-table-form">
+          <select class="border-type">
+            <option value="solid">solid</option>
+            <option value="dotted">dotted</option>
+            <option value="dashed">dashed</option>
+            <option value="double">double</option>
+          </select>
+          <input type="text" class="border-width">
+          <div class="error border-width error-number"></div>
+          <div class="error border-width error-empty"></div>
+          <input type="text" class="border-color">
+          <div class="error border-color error-color"></div>
+          <div class="error border-color error-empty"></div>
+        </div>
+      </div>
+      <div class="center-button">
+        <button class="clear">Clear</button>
+      </div>
+      <div class="center-button">
+        <button class="create-table" disabled>Add table</button>
+      </div>
+    </div>
+    <div class="choose list-form">
+      <div class="table-center">
+        <div class="prop-name"><span>Type of list:</span></div>
+        <div class="prop-name"><span>Type of mark:</span></div>
+        <div class="prop-name"><span>Number of list:</span></div>
+        <div class='spliter number-of-list'></div>
+      </div>
+      <div class="table-center">
+        <label>Ul:
+          <input type="radio" name="type-of-list" value="ul" checked>
+        </label>
+        <label>Ol:
+          <input type="radio" name="type-of-list" value="ol">
+        </label>
+        <select class="unordered-list-mark">
+          <option value="circle">circle</option>
+          <option value="disc">disc</option>
+          <option value="square">square</option>
+        </select>
+        <select class="ordered-list-mark">
+          <option value="decimal">decimal</option>
+          <option value="upper-roman">upper-roman</option>
+          <option value="upper-alpha">upper-alpha</option>
+        </select>
+        <input type="text" class="number-of-list">
+        <div class="error number-of-list error-number"></div>
+        <div class="error number-of-list error-empty"></div>
+      </div>
+      <div class="center-button">
+        <button class="clear-list">Clear</button>
+      </div>
+      <div class="center-button">
+        <button class="create-list" disabled>Create list</button>
+      </div>
+    </div>
+    <textarea class="text"></textarea>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="app/js/js.js"></script>
+</body>
+
+</html>
