@@ -157,7 +157,7 @@ for (var c = 1; c < backgroundColorTd.length; c++) {
 
 // Add img
 
-var backgroundImage = ['img/img1.jpg','img/img2.jpg','img/img3.jpg','img/img4.jpg','img/img5.jpg','img/img6.jpg','img/img7.jpg','img/img8.jpg','img/img9.jpg'];
+var backgroundImage = ['app/img/img1.jpg','app/img/img2.jpg','app/img/img3.jpg','app/img/img4.jpg','app/img/img5.jpg','app/img/img6.jpg','app/img/img7.jpg','app/img/img8.jpg','app/img/img9.jpg'];
 var backgroundImageTd = selAll('.choose-background-image td');
 
 for (var c = 1; c < backgroundImageTd.length; c++) {
